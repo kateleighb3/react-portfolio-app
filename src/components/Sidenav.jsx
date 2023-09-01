@@ -53,7 +53,7 @@ const Sidenav = () => {
 
             }
             <div className='md:block hidden fixed top-[5%] z-10 p-4'>
-                <div className='flex flex-row font-audio'>
+                <div className='flex flex-row font-fascinate'>
                     <a href='#main' className='p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <span>Home</span>
                     </a>

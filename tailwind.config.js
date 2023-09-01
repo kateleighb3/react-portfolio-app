@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily: {
         audio: ["Audiowide"],
+        press: ["Press Start 2P"],
+        monoton: ["Monoton"],
+        fascinate: ["Fascinate"],
       },
     },
   },
