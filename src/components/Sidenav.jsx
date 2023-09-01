@@ -15,7 +15,7 @@ const Sidenav = () => {
     };
 
     return (
-        <div className='fixed w-full h-screen bg-cover bg-[url("./assets/vaporwave_1.jpg")] flex justify-center items-center z-20'>
+        <div className='fixed w-full h-screen bg-cover bg-[url("./assets/vaporwave_1.jpg")] flex flex-col justify-center items-center z-20'>
             <AiOutlineMenu onClick={handleNav} className = 'absolute top-4 right-4 z-[99] bg-yellow-400 rounded-half md:hidden'/>
             {
                 //if our nav state is true- then display html on the screen and if it's not true, we will display some differnt html on the screen
@@ -52,25 +52,25 @@ const Sidenav = () => {
                 )
 
             }
-            <div className='md:block hidden fixed top-[5%] w-full bg-red-500 z-10 p-4 flex text-center justify-center items-center'>
-                <div>
-                    <a href='#main' className="p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'">
+            <div className='md:block hidden fixed top-[5%] z-10 p-4'>
+                <div className='flex flex-row'>
+                    <a href='#main' className='p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <span>Home</span>
                     </a>
 
-                    <a href='#main' className="p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'">
+                    <a href='#main' className='p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <span>About</span>
                     </a>
 
-                    <a href='#main' className="p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'">
+                    <a href='#main' className='p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <span>Projects</span>
                     </a>
 
-                    <a href='#main' className="p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'">
+                    <a href='#main' className='p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <span>Resume</span>
                     </a>
 
-                    <a href='#main' className="p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'">
+                    <a href='#main' className='p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <span>Contact</span>
                     </a>
                 </div>
