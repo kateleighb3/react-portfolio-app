@@ -20,7 +20,7 @@ const Sidenav = () => {
             {
                 //if our nav state is true- then display html on the screen and if it's not true, we will display some differnt html on the screen
                 nav ? (
-                    <div>
+                    <div className='font-audio'>
                         <a href="#main" className='w-{75%} flex justify-center items-center rounded-full bg-yellow-400 shadow-lg shadow-indigo-500/50 m-2 p-3 cursor-pointer hover:scale-110 ease-in duration-200'>
                             <AiOutlineHome size={20} />
                             <span className='pl-4'>Home</span>
@@ -53,7 +53,7 @@ const Sidenav = () => {
 
             }
             <div className='md:block hidden fixed top-[5%] z-10 p-4'>
-                <div className='flex flex-row'>
+                <div className='flex flex-row font-audio'>
                     <a href='#main' className='p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <span>Home</span>
                     </a>
