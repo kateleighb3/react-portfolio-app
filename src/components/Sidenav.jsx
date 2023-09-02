@@ -15,12 +15,14 @@ const Sidenav = () => {
     };
 
     return (
-        <div className='fixed w-full h-screen bg-cover bg-[url("./assets/vaporwave_1.jpg")] flex flex-col justify-center items-center z-[20]'>
-            <AiOutlineMenu onClick={handleNav} className = 'absolute top-4 right-4 z-[99] bg-yellow-400 rounded-half md:hidden'/>
+        <div>
+            <AiOutlineMenu 
+            onClick={handleNav} 
+            className = 'absolute top-4 right-4 z-[99] bg-yellow-400 rounded-half md:hidden'/>
             {
                 //if our nav state is true- then display html on the screen and if it's not true, we will display some differnt html on the screen
                 nav ? (
-                    <div className='font-fascinate'>
+                    <div className='font-fascinate fixed w-full h-screen bg-cover bg-[url("./assets/vaporwave_1.jpg")] flex flex-col justify-center items-center z-[20]'>
                         <a href="#main" className='w-{75%} flex justify-center items-center rounded-full bg-yellow-400 shadow-lg shadow-indigo-500/50 m-2 p-3 cursor-pointer hover:scale-110 ease-in duration-200'>
                             <AiOutlineHome size={20} />
                             <span className='pl-4'>Home</span>
@@ -53,8 +55,8 @@ const Sidenav = () => {
                 )
 
             }
-            <div className='md:block hidden fixed top-[5%] z-10 p-4'>
-                <div className='flex flex-row font-fascinate'> 
+            <div className='md:block hidden relative top-[5%] left-0 z-10 p-4'>
+                <div className='flex flex-row justify-center items-center font-fascinate'> 
                     <a href='#main' className='p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <span>Home</span>
                     </a>
