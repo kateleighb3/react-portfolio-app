@@ -6,7 +6,7 @@ const Main = () => {
     return (
         
         <div id='main'>
-            <div className='w-full h-screen absolute top-0 left-0 bg-cover bg-[url("./assets/vaporwave_1.jpg")]'>
+            <div className='w-full h-screen relative top-0 left-0 bg-cover bg-[url("./assets/vaporwave_1.jpg")]'>
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center'>
                     <h1 className='sm:text-5xl text-4xl font-monoton'>I'm Katie Baldwin</h1>
                     <h2>
