@@ -55,8 +55,8 @@ const Sidenav = () => {
                 )
 
             }
-            <div className='md:block hidden fixed top-[5%] left-0 z-10 p-4 border-4 border-white ml-20 mr-20'>
-                <div className='flex flex-row justify-center items-center font-fascinate border-2 border-indigo'> 
+            <div className='md:block hidden absolute top-[5%] left-[50%] right-[50%] z-10 p-4 text-center'>
+                <div className='flex flex-row justify-center items-center font-fascinate'> 
                     <a href='#main' className='p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <span>Home</span>
                     </a>
