@@ -32,8 +32,17 @@ const data = [
 ]
 const Resume = () => {
     return (
-        <div id='resume' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-        Resume
+    <div id='resume' className='w-full md:pl-20 p-4 py-16 bg-orange-500'>
+       <h1 className='text-4xl font-bold text-center text-black font-fascinate mb-4'>Resume</h1>
+       {data.map((item, idx) => (
+        <ResumeItem
+            key={idx}
+            year={item.year}
+            company={item.company}
+            title={item.title}
+            details={item.details}
+        />
+       ))}
         </div>
     )
 }
