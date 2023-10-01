@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectItem from './ProjectItem'
 import ironman from '../assets/ironman.jpg'
 import quest from '../assets/an-app-called-quest.jpg'
+import zero from '../assets/zeroproof.jpg'
 
 const Projects = () => {
     return (
@@ -10,6 +11,7 @@ const Projects = () => {
             <div className='grid sm:grid-cols-2 gap-12'>
                 <a href='https://sienkc.github.io/The_Comic_Vault/'><ProjectItem img={ironman} title='The Comic Vault' tech='HTML/CSS/Javascript'/></a>
                 <a href='https://shrouded-springs-93967-4ef63984c8fc.herokuapp.com/'><ProjectItem img={quest} title='An App Called Quest' tech='Node/MySQL' a href='https://sienkc.github.io/The_Comic_Vault/'/></a>
+                <a href='https://guarded-river-60488-2757545d4c45.herokuapp.com/'><ProjectItem img={zero} title='Zero Proof' tech='MERN' a href='https://guarded-river-60488-2757545d4c45.herokuapp.com/'/></a>
             </div>
 
         </div>

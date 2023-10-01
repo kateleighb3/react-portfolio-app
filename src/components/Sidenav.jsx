@@ -38,10 +38,10 @@ const Sidenav = () => {
                             <span className='pl-4'>Projects</span>
                         </a>
 
-                        <a href="#resume" className='w-{75%} flex justify-center items-center rounded-full bg-yellow-400 shadow-lg shadow-indigo-500/50 m-2 p-3 cursor-pointer hover:scale-110 ease-in duration-200'>
+                        {/* <a href="#resume" className='w-{75%} flex justify-center items-center rounded-full bg-yellow-400 shadow-lg shadow-indigo-500/50 m-2 p-3 cursor-pointer hover:scale-110 ease-in duration-200'>
                             <IoNewspaper size={20} />
                             <span className='pl-4'>Resume</span>
-                        </a>
+                        </a> */}
 
                         <a href="#contact" className='w-{75%} flex justify-center items-center rounded-full bg-yellow-400 shadow-lg shadow-indigo-500/50 m-2 p-3 cursor-pointer hover:scale-110 ease-in duration-200'>
                             <FaRegEnvelope size={20} />
@@ -69,9 +69,9 @@ const Sidenav = () => {
                         <span>Projects</span>
                     </a>
 
-                    <a href='#resume' className='p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'>
+                    {/* <a href='#resume' className='p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <span>Resume</span>
-                    </a>
+                    </a> */}
 
                     <a href='#contact' className='p-2 m-3 bg-yellow-400 rounded-full shadow-lg shadow-indigo-500/50 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <span>Contact</span>

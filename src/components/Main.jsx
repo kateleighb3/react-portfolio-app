@@ -13,13 +13,11 @@ const Main = () => {
                     <TypeAnimation
                         sequence={[
                          // Same substring at the start will only be typed out once, initially
-                        "I'm a Developer",
+                        "I'm a Web Developer",
                         2000, // wait 1s before replacing "Mice" with "Hamsters"
-                        "I'm a Coder",
-                        2000,
                         "I'm a Problem Solver",
                         2000,
-                        "I'm a Tech Enthusiast",
+                        "I'm a Creative",
                         2000
                         ]}
                         wrapper="span"
